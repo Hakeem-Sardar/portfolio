@@ -116,17 +116,23 @@ h1 ,h2, h3,h4,h5,h6{
 .btn{
     padding: 10px 23px 10px 25px;
     background-color:transparent;
-    color: white;
+   
     font-size: 12px;
     border: 2px solid white;
     border-radius: 23px;
     outline: none;
     text-transform: uppercase;
+    cursor: pointer;
+
+}
+.btn a{
+    text-decoration: none;
+    color: white;
 
 }
 .btn:active{
-    color: black;
-background-color: white;
+    color: white;
+background-color: black;
 
 }
 
