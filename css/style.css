@@ -782,8 +782,8 @@ text-decoration: none;
   .footer-list{
       display: flex;
       justify-content: center;
-      height: 20vh;
-      align-items: center;
+      /* height: 20vh; */
+      /* align-items: center; */
       margin: 0px;
   }
   .footer-list li{
@@ -804,6 +804,7 @@ text-decoration: none;
    border-radius: 50%;
    padding: 10px;
    background-color: #343434;
+   margin-top: 2rem;
 
   }
   .footer-list i:hover{
@@ -817,6 +818,8 @@ text-decoration: none;
    text-align: center;
    margin: 0px;
    /* margin-bottom: 5px; */
+   color:#ffff;
+   padding: 12px 0px 2rem 3rem;
   }
  
 
